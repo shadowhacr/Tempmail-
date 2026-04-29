@@ -17,12 +17,12 @@ import aiohttp
 # 🔧 CONFIG - EDITED AS REQUESTED
 # ============================================
 
-BOT_TOKEN = os.getenv("BOT_TOKEN", "YOUR_BOT_TOKEN_HERE")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8748726116:AAHBskrmC976aLz8UoUUiXv2AQSlIneuvGk")
 OWNER_IDS = [int(x.strip()) for x in os.getenv("OWNER_IDS", "8627624927").split(",") if x.strip()]
 
 # TWO CHANNELS (NO GROUP)
 CHANNEL_USERNAME_1 = "@ssbugchannel"      # First channel
-CHANNEL_USERNAME_2 = "@syedhacks"     # Second channel (replace with actual)
+CHANNEL_USERNAME_2 = "@+ZVEczsZmiWFkNTBl"     # Second channel (replace with actual)
 YOUTUBE_LINK = "https://youtube.com/@shadowhere.460"
 WHATSAPP_LINK = "https://whatsapp.com/channel/0029VbD54jxEgGfIqPaPSK24"
 
